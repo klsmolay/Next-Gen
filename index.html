@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Creative & Experience Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-trail"></div>
+    <div class="custom-cursor"></div>
+    
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-logo">
+            <div class="morphing-text">Loading</div>
+        </div>
+        <div class="loading-progress"></div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-sidebar">
+        <div class="nav-items">
+            <a href="#hero" class="nav-item active" data-section="hero">
+                <span class="nav-dot"></span>
+                <span class="nav-text">Home</span>
+            </a>
+            <a href="#about" class="nav-item" data-section="about">
+                <span class="nav-dot"></span>
+                <span class="nav-text">About</span>
+            </a>
+            <a href="#skills" class="nav-item" data-section="skills">
+                <span class="nav-dot"></span>
+                <span class="nav-text">Skills</span>
+            </a>
+            <a href="#projects" class="nav-item" data-section="projects">
+                <span class="nav-dot"></span>
+                <span class="nav-text">Projects</span>
+            </a>
+            <a href="#testimonials" class="nav-item" data-section="testimonials">
+                <span class="nav-dot"></span>
+                <span class="nav-text">Testimonials</span>
+            </a>
+            <a href="#contact" class="nav-item" data-section="contact">
+                <span class="nav-dot"></span>
+                <span class="nav-text">Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <canvas id="particle-canvas"></canvas>
+            <div class="gradient-mesh"></div>
+            <div class="floating-elements">
+                <div class="float-element"></div>
+                <div class="float-element"></div>
+                <div class="float-element"></div>
+                <div class="float-element"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title glitch-text" data-text="Digital Creative">
+                    Digital Creative
+                </h1>
+                <h2 class="hero-subtitle typewriter">& Experience Designer</h2>
+                <p class="hero-description">Crafting Tomorrow's Digital Experiences</p>
+                <button class="cta-button ripple-button">
+                    <span>Explore My Universe</span>
+                    <div class="button-ripple"></div>
+                </button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="diagonal-split">
+                    <div class="split-content">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="about-text">
+                            I'm a visionary digital creative with a passion for pushing the boundaries of web experiences. 
+                            Combining cutting-edge technology with artistic vision to create memorable digital journeys.
+                        </p>
+                        <div class="stats-grid">
+                            <div class="stat-item" data-target="5">
+                                <span class="stat-number">0</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item" data-target="50">
+                                <span class="stat-number">0</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item" data-target="12">
+                                <span class="stat-number">0</span>
+                                <span class="stat-label">Awards Won</span>
+                            </div>
+                            <div class="stat-item" data-target="100">
+                                <span class="stat-number">0</span>
+                                <span class="stat-label">Happy Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split-image">
+                        <div class="liquid-portrait">
+                            <div class="portrait-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills Universe</h2>
+                <div class="skills-constellation" id="skills-constellation">
+                    <div class="skill-orbit" data-skill="Web Design" data-level="95" data-icon="🎨">
+                        <div class="skill-node magnetic-element">
+                            <span class="skill-icon">🎨</span>
+                            <span class="skill-name">Web Design</span>
+                            <div class="skill-level">95%</div>
+                        </div>
+                    </div>
+                    <div class="skill-orbit" data-skill="Motion Graphics" data-level="88" data-icon="🎬">
+                        <div class="skill-node magnetic-element">
+                            <span class="skill-icon">🎬</span>
+                            <span class="skill-name">Motion Graphics</span>
+                            <div class="skill-level">88%</div>
+                        </div>
+                    </div>
+                    <div class="skill-orbit" data-skill="3D Modeling" data-level="82" data-icon="🔮">
+                        <div class="skill-node magnetic-element">
+                            <span class="skill-icon">🔮</span>
+                            <span class="skill-name">3D Modeling</span>
+                            <div class="skill-level">82%</div>
+                        </div>
+                    </div>
+                    <div class="skill-orbit" data-skill="Brand Identity" data-level="90" data-icon="✨">
+                        <div class="skill-node magnetic-element">
+                            <span class="skill-icon">✨</span>
+                            <span class="skill-name">Brand Identity</span>
+                            <div class="skill-level">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill-orbit" data-skill="UI/UX Design" data-level="93" data-icon="💫">
+                        <div class="skill-node magnetic-element">
+                            <span class="skill-icon">💫</span>
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-level">93%</div>
+                        </div>
+                    </div>
+                    <div class="skill-orbit" data-skill="Creative Direction" data-level="87" data-icon="🚀">
+                        <div class="skill-node magnetic-element">
+                            <span class="skill-icon">🚀</span>
+                            <span class="skill-name">Creative Direction</span>
+                            <div class="skill-level">87%</div>
+                        </div>
+                    </div>
+                    <canvas id="connections-canvas"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="motion">Motion</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card glass-morph" data-category="branding">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop" alt="Brand Revolution" class="ripple-image">
+                            <div class="project-overlay">
+                                <h3>Brand Revolution</h3>
+                                <p>Complete brand transformation for a tech startup</p>
+                                <span class="project-year">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card glass-morph" data-category="web">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop" alt="Digital Odyssey" class="ripple-image">
+                            <div class="project-overlay">
+                                <h3>Digital Odyssey</h3>
+                                <p>Immersive website experience with WebGL animations</p>
+                                <span class="project-year">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card glass-morph" data-category="motion">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop" alt="Neon Dreams" class="ripple-image">
+                            <div class="project-overlay">
+                                <h3>Neon Dreams</h3>
+                                <p>Futuristic motion graphics for a music video</p>
+                                <span class="project-year">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card glass-morph" data-category="web">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&h=600&fit=crop" alt="Cosmic Interface" class="ripple-image">
+                            <div class="project-overlay">
+                                <h3>Cosmic Interface</h3>
+                                <p>Space-themed dashboard for data visualization</p>
+                                <span class="project-year">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card glass-morph" data-category="motion">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=800&h=600&fit=crop" alt="Virtual Reality" class="ripple-image">
+                            <div class="project-overlay">
+                                <h3>Virtual Reality</h3>
+                                <p>VR environment design for training simulation</p>
+                                <span class="project-year">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card glass-morph" data-category="web">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop" alt="Future Commerce" class="ripple-image">
+                            <div class="project-overlay">
+                                <h3>Future Commerce</h3>
+                                <p>Next-gen shopping experience with AR integration</p>
+                                <span class="project-year">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">Client Testimonials</h2>
+                <div class="testimonials-carousel">
+                    <div class="testimonial-item active">
+                        <div class="testimonial-content hologram-panel">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <blockquote>
+                                "Absolutely mind-blowing work! The attention to detail and innovative approach exceeded all our expectations."
+                            </blockquote>
+                            <cite>
+                                <strong>Sarah Chen</strong>
+                                <span>Creative Director at TechFlow</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content hologram-panel">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <blockquote>
+                                "Transformed our brand identity completely. The results speak for themselves - 300% increase in engagement!"
+                            </blockquote>
+                            <cite>
+                                <strong>Marcus Rodriguez</strong>
+                                <span>CEO at StartupX</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content hologram-panel">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <blockquote>
+                                "Working together was a game-changer. The creative vision and technical execution were flawless."
+                            </blockquote>
+                            <cite>
+                                <strong>Emily Watson</strong>
+                                <span>Marketing Lead at InnovateCorp</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content hologram-panel">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <blockquote>
+                                "The most talented designer I've worked with. Brings ideas to life in ways you never imagined possible."
+                            </blockquote>
+                            <cite>
+                                <strong>David Kim</strong>
+                                <span>Product Manager at FutureTech</span>
+                            </cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev">&lt;</button>
+                    <div class="carousel-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                        <span class="dot" data-slide="3"></span>
+                    </div>
+                    <button class="carousel-btn next">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="orbital-background">
+                <div class="orbit-point"></div>
+                <div class="orbit-point"></div>
+                <div class="orbit-point"></div>
+                <div class="orbit-point"></div>
+            </div>
+            <div class="container">
+                <h2 class="section-title">Let's Create Something Amazing</h2>
+                <div class="contact-content">
+                    <form class="contact-form liquid-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required class="liquid-input">
+                            <label for="name" class="floating-label">Your Name</label>
+                            <div class="input-ripple"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required class="liquid-input">
+                            <label for="email" class="floating-label">Your Email</label>
+                            <div class="input-ripple"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required class="liquid-input liquid-textarea"></textarea>
+                            <label for="message" class="floating-label">Your Message</label>
+                            <div class="input-ripple"></div>
+                        </div>
+                        <button type="submit" class="submit-button particle-burst">
+                            <span>Send Message</span>
+                            <canvas class="confetti-canvas"></canvas>
+                        </button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:hello@futuristic-creative.com">hello@futuristic-creative.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" target="_blank">Dribbble</a>
+                            <a href="#" class="social-link" target="_blank">Behance</a>
+                            <a href="#" class="social-link" target="_blank">Instagram</a>
+                            <a href="#" class="social-link" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Fullscreen Project Preview -->
+    <div class="project-preview-modal hidden" id="project-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <img src="" alt="" id="modal-image">
+                <div class="modal-info">
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-description"></p>
+                    <span id="modal-year"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
